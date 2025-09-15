@@ -1,21 +1,23 @@
-#introduction of while loop
+# Topic: Introduction to while loop
 
-print("When did India get its independence (year)? ")
-year = int(input())
+year = int(input("When did INDIA get its Independance (year): "))
 
 if year == 1947:
     print("Hip Hip Hurray. You got that right!")
 else:
-    print("Comeon, dont you know even this?")
+    print("Comeon don't you know even this?")
+    print("That ok, I will let you attempt this once more: ")
 
-#I would like to write a piece of code, which  lets the user attempt as many time as he wants.
-#The code will end, only when it gets the right answer.
+# I would like to write a piece of code, which lets the user attempt as many times as user wants
+# The code will end, only when it get the right answer
 
-print("When did India get its independence (year)?")
-year = int(input())
+print("To exit this please enter 1")
+new_year = int(input("When did INDIA get its Independance (year): "))
 
-while year != 1947:
-    print("you got this wrong. Enter once again.")
-    year = int(input())
+while new_year != 1947:
+    if new_year == 1:
+        exit()
+    print("you got this wrong.") 
+    new_year = int(input("Enter once again: "))
 
-print("Wowwwww... you got it right! 1947.")
+print("Hip Hip Hurry. you got that right!")
