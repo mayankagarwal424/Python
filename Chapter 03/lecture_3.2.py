@@ -10,3 +10,4 @@ while i <= num :
 
 
 print(f"Factorial of {num} is {fact}")
+
