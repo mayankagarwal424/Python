@@ -1,4 +1,4 @@
-# Topic: Tutorial on while loop
+'''Topic: Tutorial on while loop'''
 
 # 1st Problem
 num = int(input("Enter a number: "))
@@ -52,4 +52,5 @@ if (num_3 < 0):
 if (num_3 == rev_1):
     print("Palindrome")
 else:
+
     print("Not a Palindrome")
