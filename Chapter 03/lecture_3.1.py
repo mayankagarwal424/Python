@@ -1,4 +1,4 @@
-# Topic: Introduction to while loop
+'''Topic: Introduction to while loop'''
 
 year = int(input("When did INDIA get its Independance (year): "))
 
@@ -21,3 +21,4 @@ while new_year != 1947:
     new_year = int(input("Enter once again: "))
 
 print("Hip Hip Hurry. you got that right!")
+
