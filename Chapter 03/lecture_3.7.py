@@ -1,4 +1,4 @@
-# Topic: More on range and for loop without range 
+'''Topic: More on range and for loop without range'''
 
 '''
 range(Start, end, step)
@@ -15,4 +15,5 @@ for x in range(9, -1, -1):
 country = "INDIA"
 
 for letter in country:
+
     print(letter)
