@@ -1,4 +1,4 @@
-# Topic: More on variables, opreators and expressions
+'''Topic: More on variables, opreators and expressions'''
 
 # variables are case sensitive
 roll = 5
@@ -38,4 +38,5 @@ h = 6
 print(2 < h < 10)                                     # here we use multiple opreater in one line
 print(10 < h < 20)                                    # this concept is known as chaining              
 print(4 < h * 4 < 50)
+
 print(6 == h < 8)
