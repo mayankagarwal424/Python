@@ -1,4 +1,4 @@
-# Topic: Introduction to "import library"
+'''Topic: Introduction to "import library"'''
 
 import math
 
@@ -20,4 +20,5 @@ else:
 
 # let us simulate a coin toss
 print(random.randrange(1,7))
+
 
