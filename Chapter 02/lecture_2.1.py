@@ -1,4 +1,4 @@
-# Topic: Variables; A programer's perspective
+'''Topic: Variables; A programer's perspective''' 
 
 ram_bank_balance = 100000
 # ram's bank balance, note that this is +ve
@@ -17,5 +17,6 @@ net_liability = ram_loan_amount + lakshman_loan_amount
 
 final_amount = net_income - net_liability
 # final_amount is the family's final money (it may be +ve or -ve)
+
 
 print("So, the family has", final_amount)
