@@ -1,4 +1,4 @@
-# Topic: An Interesting Cipher; More on String 
+'''Topic: An Interesting Cipher; More on String''' 
 
 alpha = "abcdefghijklmnopqrstvwxyz"
 i = 10
@@ -29,5 +29,6 @@ t += alpha[((alpha.index(name[j+1]) + k) % 26)]
 t += alpha[((alpha.index(name[j+2]) + k) % 26)]
 t += alpha[((alpha.index(name[j+3]) + k) % 26)]
 t += alpha[((alpha.index(name[j+4]) + k) % 26)]
+
 
 print(t)
