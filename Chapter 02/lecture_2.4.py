@@ -1,4 +1,4 @@
-# Topic: Escape characters and types of quoyes
+'''Topic: Escape characters and types of quoyes'''
 
 print('It\'s a beautiful day!')                      # here "\" is a escape opreator.
 print("We are from \"IIT\" Madras")     
@@ -16,5 +16,6 @@ z = '''First line
 print(x)
 print(y)
 print(z)
+
 
 # here ''' / """ is use to define multiline string as well as multiline comment.
