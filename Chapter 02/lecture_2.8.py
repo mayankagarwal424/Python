@@ -1,4 +1,4 @@
-# Topic: Tutorial on if, else and elif conditions
+'''Topic: Tutorial on if, else and elif conditions'''
 
 # problem 1
 num = int(input("Enter a number: "))
@@ -34,4 +34,5 @@ elif(mark >= 70):
 elif(mark >= 60):
     print("D") 
 else:
+
     print("E")
