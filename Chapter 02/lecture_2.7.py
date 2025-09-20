@@ -1,4 +1,4 @@
-# Topic: Introduction to the if Statement
+'''Topic: Introduction to the if Statement'''
 
 birth_year = int(input("Enter your birth year: "))
 current_year = 2025
@@ -13,3 +13,4 @@ else:
     print("Don't forget to watch the sequels and prequels")
 
 print("Have a nice time")
+
