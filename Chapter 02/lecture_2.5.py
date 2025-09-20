@@ -1,4 +1,4 @@
-# Topic: String Methods
+'''Topic: String Methods'''
 
 # |--------------|--------------------|--------------------------|-----------------------|
 # |    Method    |    Description     |           Code           |        output         |
@@ -101,4 +101,5 @@ print(str.lower())
 print(str.upper())
 print(str.capitalize())
 print(str.title())
+
 print(str.swapcase())
