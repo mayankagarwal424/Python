@@ -1,4 +1,4 @@
-# Topic: Different way to import a libray
+'''Topic: Different way to import a libray'''
 
 import calendar                         # here it only import the calendar library in this program
 
@@ -29,4 +29,5 @@ print(d.month(2012,3))
 
 # this also perform as
 from calendar import month as m
+
 print(m(1947,8))
