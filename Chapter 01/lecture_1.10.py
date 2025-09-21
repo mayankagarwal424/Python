@@ -1,4 +1,4 @@
-# Topic: Introduction to Strings
+'''Topic: Introduction to Strings'''
 
 # 1st program
 s = "coffee"
@@ -14,4 +14,5 @@ b = s1[1]
 
 print(a)
 print(b)
+
 print(a+b) 
