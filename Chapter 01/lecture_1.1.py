@@ -1,4 +1,4 @@
-# Topic: Introduction
+'''Topic: Introduction'''
 
 # 1st Program
 print("Namasthey India!")
@@ -15,4 +15,5 @@ print("****")
 print("   *")
 print("  **")
 print(" ***")
+
 print("****")
