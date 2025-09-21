@@ -1,4 +1,4 @@
-# Topic: More on Strings
+'''Topic: More on Strings'''
 
 # Replication in string
 s = "good"
@@ -29,4 +29,5 @@ print(y[-6])
 # find the length of string
 z = "jnvbrhibcwhbciebcicihcouwejvnwcc"
 print(len(z))
+
 print(z[31])
