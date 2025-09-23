@@ -1,4 +1,4 @@
-# Topic: A Quick Introduction of variable
+'''Topic: A Quick Introduction of variable'''
 
 # 1st program
 a = 10
@@ -24,4 +24,5 @@ n = int(input())
 print(n)
 print(n+1)
 print(n+2)
+
 print(n+3)
