@@ -1,4 +1,4 @@
-# Topic: Opreators and Expressions 2
+'''Topic: Opreators and Expressions 2'''
 
 # Arithmetic Opreator (+, -, *, /, //, %, **)
 print("Adition", 2 + 3)
@@ -29,4 +29,5 @@ print(False or True)
 print(False or False)
 
 print(not (False))
+
 print(not True)
