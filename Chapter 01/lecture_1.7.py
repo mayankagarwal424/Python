@@ -1,4 +1,4 @@
-# Topic: Data Type 2
+'''Topic: Data Type 2'''
 
 # 1st program
 i = 7
@@ -36,4 +36,5 @@ print(g, type(g))
 print(h, type(h))
 print(j, type(j))
 print(k, type(k))
+
 print(l, type(l))
