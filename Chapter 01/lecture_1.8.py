@@ -1,4 +1,4 @@
-# Topic: Opreators and Expressions 1
+'''Topic: Opreators and Expressions 1'''
 
 # 1st program
 a = "Mayank"
@@ -16,4 +16,5 @@ print(l)
 # 3rd program
 n1 = 10+3*5
 # The expected answer was 65, which is incorrect. The correct answer turns out to be 25, is due to what is called the "operator precedence".
+
 print(n1)
