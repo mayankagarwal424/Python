@@ -1,4 +1,4 @@
-# Topic: Data Type 1
+'''Topic: Data Type 1'''
 
 # 1st program
 n = 10
@@ -24,4 +24,5 @@ print("l is type", type(l))
 
 print("l[0] is type", type(l[0]))
 print("l[1] is type", type(l[1]))
+
 print("l[2] is type", type(l[2]))
