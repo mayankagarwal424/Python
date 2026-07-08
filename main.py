@@ -96,3 +96,21 @@
 # print(12 != 12 or 23 == 49 or 10 > 5) 			#if one condition is true provide "True" answer will be "True"
 
 # print(not 12 == 12)					#not reverse the condition answer will be "False"
+
+'''Conditional Statement(if-else)'''
+
+# a = 8
+
+# if a > 10:
+# 	print("I will do task A")
+
+# else:
+# 	print("I will do task B)
+
+## example
+money = int(input("Please provide me the money: ")
+
+
+
+						
+            
