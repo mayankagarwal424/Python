@@ -274,3 +274,54 @@
 
 # else:
 # 	print(f"{num} is not a perfect number")
+
+## Problem 10
+# num = int(input("Check the no is prime or not? "))
+# count = 0
+
+# for i in range(1, num + 1):
+# 	if num % i == 0:
+# 		count += 1
+
+# if count == 2:
+# 	print(f"{num} is a prime number")
+# else:
+# 	print(f"{num} is not a prime number")
+
+## Problem 11
+# a = "Mayank"
+# b = ""
+
+# for i in range(len(a)-1, -1, -1):
+#     b += a[i]
+
+# print(b)
+
+## Problem 12
+# st = input("Enter your string: ")
+# rev = ""
+
+# for i in range(len(st) - 1, -1, -1):
+# 	rev += st[i]
+
+# if st == rev:
+# 	print(f"{st} is pallindrome String")
+# else:
+# 	print(f"{st} is not pallindrome String")
+
+## Problem 13
+# a = "sdfhgjswl211!@%#%%#&$rqwpir2p34j423nerjvg42"
+
+# char = 0
+# dig = 0
+# spchar = 0
+
+# for i in a:
+# 	if i.isdigit():
+# 		dig += 1
+# 	elif i.isalpha():
+# 		char += 1
+# 	else:
+# 		spchar +=1
+
+# print(f"Your digits are {dig} \n Your alphabets are {spchar} \n Your special character are {spchar}")
