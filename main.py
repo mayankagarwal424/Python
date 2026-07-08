@@ -108,7 +108,7 @@
 # 	print("I will do task B)
 
 ## example
-# money = int(input("Please provide me the money: ")
+# money = int(input("Please provide me the money: "))
 
 # if money == 10:
 # 	print("I will have a choco bar icecream")
@@ -119,11 +119,11 @@
 # else:
 # 	print("I hae a cone icecream")
             
-'''Some question based on conditional statement'''
+'''Some problems based on conditional statement'''
 
 ##Problem 1
-# num1 = int(input("Enter your 1st number: ")
-# num2 = int(input("Enter your 2nd number: ")
+# num1 = int(input("Enter your 1st number: "))
+# num2 = int(input("Enter your 2nd number: "))
 
 # if num1 > num2:
 # 	print(f"{num1} is graeter than {num2}")
@@ -147,7 +147,7 @@
 # 	print("Unidentified gender")
 
 ##Problem 3
-# num = int(input("Enter a number: ")
+# num = int(input("Enter a number: "))
 
 # if num % 2 == 0:
 # 	print(f"{num} is an even number")	
@@ -157,10 +157,120 @@
 
 ##Problem 4
 # name = input("Enter your name: ")
-# age = int(input("Enter your age: ")
+# age = int(input("Enter your age: "))
 
 # if age >= 18:
 # 	print(f"Hello {name} you are a valid voter")
 
 # else:
 # 	print(f"Hello {name} you are not a vaild voter")
+
+'''For Loop'''
+
+## lets print a table of 5
+# n = int(input("which table you want? "))
+
+# for i in range(n, n * 10 + 1, n):
+# 	print(i)
+
+# a = "Mayank is a good guy"
+
+# for i in range(len(a)):
+# 	print(i)
+
+# b = "Mayank is a Data Scientist"
+
+# for i in b:
+# 	print(i)
+
+# for i in range(1, 21):
+# 	if i == 15:
+# 		print("break statement is executed")
+# 		break
+# 	print(i)
+	
+# else:
+# 	print("break statement is not executed")
+
+'''Some problems on For loop'''
+
+## Problem 1
+# num = int(input("Enter a number: "))
+
+# for i in range(num):
+# 	print("Hello World")
+
+## Problem 2
+# n = int(input("Enter a number: "))
+
+# for i in range(1, n+1):
+# 	print(i)
+
+## Problem 3
+# num = int(input("Enter a number: "))
+
+# for i in range(n, 0, -1):
+# 	print(i)
+
+## Problem 4
+# num = int(input("Which table you want: ")
+
+# for i in range(1, 11):
+# 	print(f"{num} X {i} = {num * i}")
+
+## Problem 5
+# n = int(input("Enter a number: "))
+# sum = 0
+
+# for i in range(num + 1):
+# 	sum += i
+
+# print(sum)
+
+## Problem 6
+# n = int(input("Which number of Factorial you want? "))
+# fact = 1
+
+# if num == 0 or num == 1:
+# 	print(f"The Factorial of {n} is {fact}")
+
+# else:
+# 	for i in range(1, n + 1):
+# 		fact *= i
+
+# print(f"The Factorial of {n} is {fact}")
+
+##Problem 7
+# num = int(input("Tell me a number: "))
+# even = 0
+# odd = 0
+
+# for i in range(num + 1):
+# 	if i % 2 == 0:
+# 		even += i
+
+# 	else: 
+# 		odd += i
+
+# print(f"Your even and odd sum is {even} and {odd}")
+
+## Problem 8
+# num = int(input("Which number factors you want: "))
+
+# for i in range(1, n + 1):
+# 	if n % i == 0:
+# 		print(i)
+
+## Problem 9
+# num = int(input("Which number factors you want: "))
+# sum = 0
+
+# for i in range(1, n + 1):
+# 	if n % i == 0:
+# 		sum += i
+
+# if sum == num:
+# 	print(f"{num} is a perfect number")
+
+# else:
+# 	print(f"{num} is not a perfect number")
