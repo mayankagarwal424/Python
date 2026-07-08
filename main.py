@@ -108,9 +108,59 @@
 # 	print("I will do task B)
 
 ## example
-money = int(input("Please provide me the money: ")
+# money = int(input("Please provide me the money: ")
 
+# if money == 10:
+# 	print("I will have a choco bar icecream")
 
+# elif money  == 20:
+# 	print("I have a mango dolly ieccream")
 
-						
+# else:
+# 	print("I hae a cone icecream")
             
+'''Some question based on conditional statement'''
+
+##Problem 1
+# num1 = int(input("Enter your 1st number: ")
+# num2 = int(input("Enter your 2nd number: ")
+
+# if num1 > num2:
+# 	print(f"{num1} is graeter than {num2}")
+
+# elif num2 > num1:
+# 	print(f"{num2} is grater than {num1}")
+
+# else:
+# 	print("Both number are equal")
+
+##Problem 2
+# gen = input("Enter your sex: ")
+
+# if gen == "Male" or gen == "male":
+# 	print("Good morning Sir")
+
+# elif gen == "Female" or gen == "female":
+# 	print("Good morning ma'an")
+	
+# else: 
+# 	print("Unidentified gender")
+
+##Problem 3
+# num = int(input("Enter a number: ")
+
+# if num % 2 == 0:
+# 	print(f"{num} is an even number")	
+
+# else:
+# 	print(f"{num} is an odd number")
+
+##Problem 4
+# name = input("Enter your name: ")
+# age = int(input("Enter your age: ")
+
+# if age >= 18:
+# 	print(f"Hello {name} you are a valid voter")
+
+# else:
+# 	print(f"Hello {name} you are not a vaild voter")
