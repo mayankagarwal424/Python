@@ -393,3 +393,36 @@
 #     else:
 #         print("Noooo, Think Greater!")
 #         tries += 1
+
+'''Functions'''
+
+# def hello():
+# 	print("hello Function called hello world")
+
+# hello()
+
+# def hii(name, age):
+# 	print(f"hii {name}, happy to know you are {age} year old")
+
+# hii("mayank", 21)
+# hii(age = 22, name = "khushi")
+
+# def pallindrome(st):
+# 	rev = ""
+# 	for i in range(len(st)-1, -1, -1):
+# 		rev += st[i]
+
+# 	if rev == st:
+# 		print(f"{st} is a pallindrome")
+# 	else:
+# 		print(f"{st} is not a pallindrome")
+
+# pallindrome("NAMAN")
+# pallindrome("Mayank")
+
+# def hi():
+# 	return "hello how are you?"
+
+# print(hi())
+
+'''Data Structure in Python'''
