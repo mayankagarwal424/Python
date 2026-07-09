@@ -325,3 +325,71 @@
 # 		spchar +=1
 
 # print(f"Your digits are {dig} \n Your alphabets are {spchar} \n Your special character are {spchar}")
+
+'''While Loop'''
+
+# a = 1
+
+# while a <= 30:
+# 	print(a)
+# 	a += 1
+
+'''Some Problems on while loop'''
+
+## Problem 1
+# n = int(input("Enter a number: "))
+
+# while n > 0:
+# 	print(n % 10)
+# 	n //= 10
+
+##Problem 2
+# n = int(input("Enter a number:"))
+# rev = 0
+
+# while n > 0:
+# 	rev = rev * 10 + n % 10
+# 	n //= 10
+
+# print(rev)
+
+##Problem 3
+# n = int(input("Enter a number: "))
+# temp = n
+# rev = 0
+
+# while n > 0:
+# 	rev = rev * 10 + n % 10
+# 	n //= 10
+
+# if temp == rev:
+# 	print(f"{temp} is a pallindrone number")
+# else:
+# 	print(f"{temp} is not a pallindrone number")
+
+##Problem 4
+# import random
+
+# num = random.randint(1, 100)
+
+# tries = 0
+# print(num)
+
+# while True:
+#     guess = int(input("Enter a number between 1 to 100: "))
+
+#     if guess == num:
+#         tries += 1
+#         print(f"Wow, you are right and guess it in {tries} tries")
+    
+#     elif guess > num and guess <= 100:
+#         print("Noooo, Think smaller!")
+#         tries += 1
+    
+#     elif guess > 100 or guess < 1:
+#         print("Please think in range of 1 to 100, try again!!")
+#         tries += 1
+
+#     else:
+#         print("Noooo, Think Greater!")
+#         tries += 1
