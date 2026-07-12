@@ -428,3 +428,64 @@
 '''Data Structure in Python'''
 '''List'''
 
+# a = [12,13,17,84,90]
+
+# #1st way using index
+
+# for i in range(len(a)):
+# 	print(a[i])
+
+# #2nd way directly on values
+
+# for i in a:
+# 	print(i)
+
+# #add data in list
+# l = [1,2,3,4,5,8]
+
+# l.append(12)
+# l.append(3)
+
+# print(l)
+
+# #Insert Data at specific position
+
+# l.insert(1,9)
+
+# print(l)
+
+# #remove data from list
+
+# l.remove(9)
+
+# print(l) 
+
+'''Some question on list'''
+
+# #Problem 1
+# l = [-32,65,-34,-89,100,4,13-58]
+
+# print("Postive Number of list: ", end = " ")
+
+# for i in l:
+# 	if i > 0:
+# 		print(i, end = ", ")
+
+# print("\n Negative number of lit: ", end = " ")
+
+# for i in l:
+# 	if i < 0:
+# 		print(i, end = ", ")
+
+# #Problem 2
+# l = [22,43,26,13,19,43,86]
+# sum = 0
+
+# for i in l:
+# 	sum += i
+
+# print(sum/len(l))
+
+# #Problem 3
+l = [22,43,26,13,19,43,86]
+
