@@ -428,6 +428,7 @@
 '''Data Structure in Python'''
 '''List'''
 
+## list are mutable "elements can be change after declaration
 # a = [12,13,17,84,90]
 
 # #1st way using index
@@ -521,3 +522,22 @@
 # 	print("Your list is sorted")
 
 '''Tuple'''
+
+# a = (1,2,4,3,2.5,45,8,print(),"hello",8,2,1)
+
+## tuple are inmutable "can't be change the element after define" 
+
+# index = a.index(4.5)
+# print(index)
+
+# count = a.count(2)
+# print(count)
+
+'''Tuple Unpacking'''
+
+# a,b,c,d = (1,2,3,4)
+
+# print(a)
+# print(b)
+# print(c)
+# print(d)
