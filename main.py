@@ -487,5 +487,35 @@
 # print(sum/len(l))
 
 # #Problem 3
-l = [22,43,26,13,19,43,86]
+# l = [22,43,26,13,19,43,86]
+# max = l[0]
+# ind = 0
 
+# for i in range(len(l)):
+# 	if l[i] > max:
+# 		max = l[i]
+# 		ind = i
+
+# print(f"The maximum number in list is {max} at index {ind}")
+	
+# #Problem 4
+# l = [22,43,26,13,19,43,86]
+# max = l[0]
+# s_max = l[0]
+
+# for i in range(len(l)):
+# 	if l[i] > max:
+#		s_max = max
+# 		max = l[i]
+
+# print(f"The second maximum number in list is {s_max}")
+
+# #Problem 5
+# l = [22,43,26,13,19,43,86]
+
+# for i in range(len(l)-1):
+# 	if l[i] > l[i+1]:
+# 		print("Your list is not sorted")
+# 		break
+# else:
+# 	print("Your list is sorted")
