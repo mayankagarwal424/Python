@@ -512,7 +512,7 @@
 # print(f"The second maximum number in list is {s_max}")
 
 # #Problem 5
-# l = [22,43,26,13,19,43,86]
+# l = [22,8,51,43,26,13,19,43,86]
 
 # for i in range(len(l)-1):
 # 	if l[i] > l[i+1]:
@@ -523,7 +523,7 @@
 
 '''Tuple'''
 
-# a = (1,2,4,3,2.5,45,8,print(),"hello",8,2,1)
+# a = (1,2,3,4.4,3,2.5,45,8,print(),"hello",8,2,1)
 
 ## tuple are inmutable "can't be change the element after define" 
 
