@@ -4,7 +4,7 @@ import random
 
 l = []
 
-l.append(random.randrange(1, 10))
+l.append(random.randrange(1, 100))
 print(l)
 
 l.append(random.randrange(1, 10))
@@ -34,4 +34,4 @@ while(j < len(b_day)-1):
     j += 1
 
 if flag == 0 :
-    print("There is no repitation")
+    print(f"There is no repitation")
